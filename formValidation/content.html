@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="frm">
+      <label>Name</label>
+      <input required class="name" type="text" />
+      <label>Email Address</label>
+      <input class="address" type="email" />
+      <label>Contact Number</label>
+      <input class="contact" type="text" maxlength="10" />
+      <label for="country">Country</label>
+      <select required name="country" id="country"></select>
+      <label for="state">State</label>
+      <select required name="state" id="state"></select>
+      <button class="sbt" type="submit">Submit</button>
+    </form>
+    <script src="content.js"></script>
+  </body>
+</html>
